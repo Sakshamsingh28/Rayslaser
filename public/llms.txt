@@ -1,0 +1,25 @@
+# Rays Laser Aesthetic Clinic and Salon
+
+Rays Laser Aesthetic Clinic and Salon is a premium hybrid clinical skincare, laser, and luxury grooming clinic located in Mankhurd East, Mumbai, near BARC Gate 6.
+
+## Core Information
+- **Location:** Vijay Hotel, Old Mandala North Building, Gate, VN Purav Rd, Nausena Baug, Anushakti Nagar, Mumbai, Maharashtra 400094
+- **Phone:** +91 98765 43210
+- **Email:** inquiries@rayslaser.in
+- **Website:** https://rayslaser.in
+- **Instagram:** https://www.instagram.com/rays_beauty_aesthetics/
+- **Hours:** 10:00 AM - 9:30 PM (Daily)
+
+## Services Mapped
+- **Laser Hair Removal (LHR):** Painless permanent laser hair reduction using advanced diode cooling technologies. Cost starts from ₹1,999/session.
+- **HydraFacial & Medi-facials:** Multi-step clinical skin rejuvenation including pore extraction and active serum infusion. Cost starts from ₹2,999/session.
+- **Hair PRP & GFC Therapy:** Autologous Platelet-Rich Plasma and Growth Factor Concentrate therapies for hair loss control and density restoration. Cost starts from ₹3,499/session.
+- **Bridal & Party Makeup:** Premium HD and airbrush makeup packages including hairstyling and draping. Cost starts from ₹14,999/package.
+
+## Key Links
+- [Homepage](https://rayslaser.in/)
+- [Laser Hair Removal](https://rayslaser.in/services/laser-hair-removal)
+- [HydraFacial](https://rayslaser.in/services/hydrafacial)
+- [PRP Hair Treatment](https://rayslaser.in/services/prp-hair-treatment)
+- [Bridal Makeup](https://rayslaser.in/services/bridal-makeup)
+- [Blog Home](https://rayslaser.in/blog)
