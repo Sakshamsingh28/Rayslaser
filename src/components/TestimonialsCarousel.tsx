@@ -38,7 +38,7 @@ export default function TestimonialsCarousel() {
             ))}
           </div>
           <div>
-            <div className="text-xl font-bold text-white">5.0 / 5.0</div>
+            <div className="text-xl font-bold text-white">4.7 / 5.0</div>
             <div className="text-xs text-white/50 tracking-wider">GOOGLE RATING</div>
           </div>
         </div>

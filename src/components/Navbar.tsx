@@ -29,7 +29,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group px-4">
           <span className="font-serif text-2xl font-bold tracking-wider text-white group-hover:text-primary transition-colors">
-            RAY&apos;S
+            RAYS
           </span>
         </Link>
 
