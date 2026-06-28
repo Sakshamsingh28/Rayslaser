@@ -1,6 +1,6 @@
 "use client";
 import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { X } from "lucide-react";
 
 export default function PictureCatalogue() {
@@ -16,6 +16,16 @@ export default function PictureCatalogue() {
   const col3Y = useTransform(scrollYProgress, [0, 1], [50, -50]);
 
   const [lightboxImg, setLightboxImg] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const images = [
     "/assets/Image1.png",
@@ -38,19 +48,19 @@ export default function PictureCatalogue() {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
         
         {/* Column 1 */}
-        <motion.div style={{ y: col1Y }} className="flex flex-col gap-6">
+        <motion.div style={{ y: isMobile ? 0 : col1Y }} className="flex flex-col gap-6">
           <img src={images[0]} onClick={() => setLightboxImg(images[0])} className="w-full h-[300px] md:h-[500px] object-cover rounded-3xl cursor-zoom-in hover:opacity-80 transition" alt="Gallery 1" />
           <img src={images[1]} onClick={() => setLightboxImg(images[1])} className="w-full h-[400px] md:h-[600px] object-cover rounded-3xl cursor-zoom-in hover:opacity-80 transition" alt="Gallery 2" />
         </motion.div>
 
         {/* Column 2 */}
-        <motion.div style={{ y: col2Y }} className="flex flex-col gap-6 md:-mt-20">
+        <motion.div style={{ y: isMobile ? 0 : col2Y }} className="flex flex-col gap-6 md:-mt-20">
           <img src={images[2]} onClick={() => setLightboxImg(images[2])} className="w-full h-[400px] md:h-[600px] object-cover rounded-3xl cursor-zoom-in hover:opacity-80 transition" alt="Gallery 3" />
           <img src={images[3]} onClick={() => setLightboxImg(images[3])} className="w-full h-[300px] md:h-[500px] object-cover rounded-3xl cursor-zoom-in hover:opacity-80 transition" alt="Gallery 4" />
         </motion.div>
 
         {/* Column 3 */}
-        <motion.div style={{ y: col3Y }} className="flex flex-col gap-6">
+        <motion.div style={{ y: isMobile ? 0 : col3Y }} className="flex flex-col gap-6">
           <img src={images[4]} onClick={() => setLightboxImg(images[4])} className="w-full h-[300px] md:h-[450px] object-cover rounded-3xl cursor-zoom-in hover:opacity-80 transition" alt="Gallery 5" />
           <img src={images[5]} onClick={() => setLightboxImg(images[5])} className="w-full h-[300px] md:h-[650px] object-cover rounded-3xl cursor-zoom-in hover:opacity-80 transition" alt="Gallery 6" />
         </motion.div>

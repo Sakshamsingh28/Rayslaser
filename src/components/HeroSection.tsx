@@ -1,6 +1,8 @@
 "use client";
 import { motion, useScroll, useTransform, Variants } from "framer-motion";
 import { useRef } from "react";
+import { MessageCircle } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroSection() {
   const ref = useRef(null);
@@ -88,10 +90,23 @@ export default function HeroSection() {
           Redefining Luxury Laser & Salon Services
         </motion.h2>
 
-        <motion.div variants={itemVars}>
-          <a href="https://wa.me/919876543210?text=Hi!%20I%20would%20like%20to%20book%20a%20slot%20at%20Rays%20Laser%20Aesthetic%20Clinic%20and%20Salon." target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center justify-center text-sm tracking-widest uppercase">
-            Book Your slot
+        <motion.div variants={itemVars} className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full max-w-md mt-4 relative z-30">
+          <a 
+            href="https://wa.me/919876543210?text=Hi!%20I%20would%20like%20to%20book%20a%20slot%20at%20Rays%20Laser%20Aesthetic%20Clinic%20and%20Salon." 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="w-full sm:w-auto px-8 py-4 rounded-full font-semibold text-xs tracking-widest uppercase transition-all bg-[#25D366] text-white hover:bg-[#20ba5a] hover:shadow-[0_0_25px_rgba(37,211,102,0.5)] flex items-center justify-center gap-2 hover:-translate-y-1 active:scale-95 duration-300 cursor-pointer"
+          >
+            <MessageCircle className="w-4 h-4 fill-white" />
+            <span>Book via WhatsApp</span>
           </a>
+          
+          <Link 
+            href="/services" 
+            className="w-full sm:w-auto btn-outline text-xs tracking-widest uppercase px-8 py-4 flex items-center justify-center hover:-translate-y-1 duration-300 border-white/20 text-white hover:text-primary hover:border-primary hover:shadow-[0_0_20px_rgba(212,175,55,0.2)] cursor-pointer"
+          >
+            Explore Services
+          </Link>
         </motion.div>
       </motion.div>
 
