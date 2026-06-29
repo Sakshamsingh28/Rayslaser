@@ -19,7 +19,7 @@ const salonSchema = {
   "image": "https://rayslaser.in/assets/logo.png",
   "@id": "https://rayslaser.in/#salon",
   "url": "https://rayslaser.in/services",
-  "telephone": "+919876543210",
+  "telephone": "+919920681317",
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",

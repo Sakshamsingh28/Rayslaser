@@ -151,7 +151,7 @@ export default function LaserCostBlog() {
             <h3 className="text-2xl font-serif text-white mb-2">Ready for smooth, hassle-free skin?</h3>
             <p className="text-white/60 text-sm mb-6">Book a consultation session with our skincare specialists today.</p>
             <a 
-              href="https://wa.me/919876543210?text=Hi!%20I%27d%20like%20to%20consult%20regarding%20Laser%20Hair%20Removal." 
+              href="https://wa.me/919920681317?text=Hi!%20I%27d%20like%20to%20consult%20regarding%20Laser%20Hair%20Removal." 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn-primary inline-block uppercase tracking-wider text-xs px-8 py-4"

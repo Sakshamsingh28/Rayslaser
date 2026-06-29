@@ -95,7 +95,7 @@ export default function PRPHairPage() {
                 <div className="text-3xl font-serif text-primary mb-2">From ₹3,499 <span className="text-xs text-white/50">/ session</span></div>
               </div>
               <a 
-                href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20book%20a%20PRP/GFC%20Hair%20Treatment%20session." 
+                href="https://wa.me/919920681317?text=Hi!%20I%20want%20to%20book%20a%20PRP/GFC%20Hair%20Treatment%20session." 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary w-full text-center mt-6 uppercase tracking-wider text-xs py-4"

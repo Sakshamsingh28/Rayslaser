@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppCTA() {
-  const whatsappUrl = "https://wa.me/910000000000"; // Placeholder URL for WhatsApp
+  const whatsappUrl = "https://wa.me/919920681317"; // Live contact number
 
   return (
     <motion.div

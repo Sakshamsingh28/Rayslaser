@@ -57,9 +57,13 @@ export default function LaserHairRemovalPage() {
           <div className="mb-12 text-center md:text-left">
             <span className="text-sm font-medium tracking-widest text-primary uppercase">Clinical Services</span>
             <h1 className="text-4xl md:text-6xl font-serif text-white mt-2 mb-6">Laser Hair Removal</h1>
-            <p className="text-lg text-white/70 leading-relaxed font-light">
+            <p className="text-lg text-white/70 leading-relaxed font-light mb-6">
               Experience the liberation of smooth, hair-free skin. Our clinical-grade permanent laser hair reduction treatments are tailored for all skin types, ensuring precision, safety, and comfort.
             </p>
+            {/* AI Search Optimization & Quick Definition Block */}
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-sm text-white/80 leading-relaxed max-w-3xl mb-8">
+              <strong>What is Laser Hair Removal?</strong> Laser Hair Removal (LHR) is a safe, non-invasive clinical procedure that uses concentrated light beams to destroy hair follicles at the root. At Rays Laser Aesthetic Clinic in Mankhurd, Mumbai, we offer permanent, pain-free hair reduction starting from ₹1,999 per session.
+            </div>
           </div>
 
           {/* Info Grid */}
@@ -95,7 +99,7 @@ export default function LaserHairRemovalPage() {
                 <div className="text-3xl font-serif text-primary mb-2">From ₹1,999 <span className="text-xs text-white/50">/ session</span></div>
               </div>
               <a 
-                href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20book%20a%20Laser%20Hair%20Removal%20session." 
+                href="https://wa.me/919920681317?text=Hi!%20I%20want%20to%20book%20a%20Laser%20Hair%20Removal%20session." 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary w-full text-center mt-6 uppercase tracking-wider text-xs py-4"

@@ -57,9 +57,13 @@ export default function HydraFacialPage() {
           <div className="mb-12 text-center md:text-left">
             <span className="text-sm font-medium tracking-widest text-primary uppercase">Skin & Anti-Aging Care</span>
             <h1 className="text-4xl md:text-6xl font-serif text-white mt-2 mb-6">HydraFacial & Medi-facials</h1>
-            <p className="text-lg text-white/70 leading-relaxed font-light">
+            <p className="text-lg text-white/70 leading-relaxed font-light mb-6">
               Give your skin the ultimate nourishment it deserves. Our advanced HydraFacial and medical-grade facials deep clean, exfoliate, extract debris, and infuse skin with hydrating serums, providing an instant glow and long-term rejuvenation.
             </p>
+            {/* AI Search Optimization & Quick Definition Block */}
+            <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-sm text-white/80 leading-relaxed max-w-3xl mb-8">
+              <strong>What is a HydraFacial?</strong> A HydraFacial is a non-invasive medical-grade skin treatment that cleanses, exfoliates, painlessly extracts blackheads/whiteheads, and infuses custom hydrating serums. At Rays Laser Aesthetic Clinic in Mankhurd East, Mumbai, HydraFacial sessions start from ₹2,999.
+            </div>
           </div>
 
           {/* Info Grid */}
@@ -95,7 +99,7 @@ export default function HydraFacialPage() {
                 <div className="text-3xl font-serif text-primary mb-2">From ₹2,999 <span className="text-xs text-white/50">/ session</span></div>
               </div>
               <a 
-                href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20book%20a%20HydraFacial%20session." 
+                href="https://wa.me/919920681317?text=Hi!%20I%20want%20to%20book%20a%20HydraFacial%20session." 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary w-full text-center mt-6 uppercase tracking-wider text-xs py-4"

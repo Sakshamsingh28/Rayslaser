@@ -44,13 +44,15 @@ export default function HeroSection() {
         style={{ y: bgY }} 
         className="absolute inset-0 w-full h-full z-0 flex items-center justify-center"
       >
+        {/* Screen-reader-only H1 for search engines */}
+        <h1 className="sr-only">Rays Laser Aesthetic Clinic and Salon | Best Skin, Hair & Laser Clinic in Mankhurd, Mumbai</h1>
         {/* The massive background text layer replicating "Image 2" */}
-        <motion.h1 
+        <motion.div 
           style={{ y: textY, opacity: textOpacity }}
           className="text-[15vw] md:text-[18vw] font-serif text-primary/80 leading-none tracking-tighter uppercase whitespace-nowrap select-none mix-blend-screen"
         >
           AESTHETIC
-        </motion.h1>
+        </motion.div>
       </motion.div>
 
       {/* Model Cutout Layer (z-10) sitting precisely over the text */}
@@ -62,7 +64,7 @@ export default function HeroSection() {
       >
         {/* The user's requested Cutout Image */}
         <img 
-          src="/hero-model.png" 
+          src="removed-image-placeholder" 
           alt="Premium Aesthetic Model" 
           className="object-cover md:object-contain object-bottom w-full h-full [mask-image:linear-gradient(to_bottom,black_80%,transparent)]"
         />
@@ -92,7 +94,7 @@ export default function HeroSection() {
 
         <motion.div variants={itemVars} className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full max-w-md mt-4 relative z-30">
           <a 
-            href="https://wa.me/919876543210?text=Hi!%20I%20would%20like%20to%20book%20a%20slot%20at%20Rays%20Laser%20Aesthetic%20Clinic%20and%20Salon." 
+            href="https://wa.me/919920681317?text=Hi!%20I%20would%20like%20to%20book%20a%20slot%20at%20Rays%20Laser%20Aesthetic%20Clinic%20and%20Salon." 
             target="_blank" 
             rel="noopener noreferrer" 
             className="w-full sm:w-auto px-8 py-4 rounded-full font-semibold text-xs tracking-widest uppercase transition-all bg-[#25D366] text-white hover:bg-[#20ba5a] hover:shadow-[0_0_25px_rgba(37,211,102,0.5)] flex items-center justify-center gap-2 hover:-translate-y-1 active:scale-95 duration-300 cursor-pointer"

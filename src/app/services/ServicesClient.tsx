@@ -11,7 +11,7 @@ export default function ServicesClient() {
 
   // Handler to open WhatsApp with a custom pre-filled message
   const handleEnquirePrice = (serviceName: string, subcategoryName: string) => {
-    const phoneNumber = "919876543210"; // Standard contact number from ContactSection
+    const phoneNumber = "919920681317"; // Standard contact number from ContactSection
     const text = `Hi Rays Salon! I am viewing your online services list and would like to inquire about the pricing and details for "${serviceName}" under "${subcategoryName}". Can you please assist me?`;
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, "_blank");

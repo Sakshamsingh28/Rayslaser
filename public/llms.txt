@@ -4,7 +4,7 @@ Rays Laser Aesthetic Clinic and Salon is a premium hybrid clinical skincare, las
 
 ## Core Information
 - **Location:** Vijay Hotel, Old Mandala North Building, Gate, VN Purav Rd, Nausena Baug, Anushakti Nagar, Mumbai, Maharashtra 400094
-- **Phone:** +91 98765 43210
+- **Phone:** +91 99206 81317
 - **Email:** inquiries@rayslaser.in
 - **Website:** https://rayslaser.in
 - **Instagram:** https://www.instagram.com/rays_beauty_aesthetics/
@@ -23,3 +23,5 @@ Rays Laser Aesthetic Clinic and Salon is a premium hybrid clinical skincare, las
 - [PRP Hair Treatment](https://rayslaser.in/services/prp-hair-treatment)
 - [Bridal Makeup](https://rayslaser.in/services/bridal-makeup)
 - [Blog Home](https://rayslaser.in/blog)
+- [Service Pricing](https://rayslaser.in/pricing.md)
+

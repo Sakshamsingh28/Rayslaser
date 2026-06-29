@@ -11,7 +11,7 @@ export default function ContactSection() {
     e.preventDefault();
     if (!name || !phone || !service) return;
 
-    const phoneNumber = "919876543210"; 
+    const phoneNumber = "919920681317"; 
     const text = `Hi! My name is ${encodeURIComponent(name)}.%0AI am reaching out regarding the ${encodeURIComponent(service)} service.%0AMy contact is ${encodeURIComponent(phone)}.%0A%0ACould we schedule a consultation?`;
     
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`;

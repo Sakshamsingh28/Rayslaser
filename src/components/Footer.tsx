@@ -39,7 +39,7 @@ export default function Footer() {
                 Mumbai, Maharashtra 400094
               </li>
               <li className="text-white/50 text-sm">
-                +91 98765 43210 <br />
+                +91 99206 81317 <br />
                 inquiries@rayslaser.in
               </li>
             </ul>

@@ -45,7 +45,7 @@ const jsonLd = {
   "name": "Rays Laser Aesthetic Clinic and Salon",
   "image": "https://rayslaser.in/hero-model.png",
   "priceRange": "$$",
-  "telephone": "+91 98765 43210",
+  "telephone": "+91 99206 81317",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Vijay Hotel, Old Mandala North Building, Gate, VN Purav Rd, Nausena Baug, Anushakti Nagar",

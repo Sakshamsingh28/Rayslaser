@@ -95,7 +95,7 @@ export default function BridalMakeupPage() {
                 <div className="text-3xl font-serif text-primary mb-2">From ₹14,999 <span className="text-xs text-white/50">/ package</span></div>
               </div>
               <a 
-                href="https://wa.me/919876543210?text=Hi!%20I%20want%20to%20book%20a%20Bridal/Party%20Makeup%20session." 
+                href="https://wa.me/919920681317?text=Hi!%20I%20want%20to%20book%20a%20Bridal/Party%20Makeup%20session." 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn-primary w-full text-center mt-6 uppercase tracking-wider text-xs py-4"
