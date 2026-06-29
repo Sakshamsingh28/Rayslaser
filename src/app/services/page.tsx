@@ -16,9 +16,9 @@ const salonSchema = {
   "@context": "https://schema.org",
   "@type": "BeautySalon",
   "name": "Rays Laser Clinic and Salon",
-  "image": "https://rayslaser.in/assets/logo.png",
-  "@id": "https://rayslaser.in/#salon",
-  "url": "https://rayslaser.in/services",
+  "image": "https://www.rayslaser.in/assets/logo.png",
+  "@id": "https://www.rayslaser.in/#salon",
+  "url": "https://www.rayslaser.in/services",
   "telephone": "+919920681317",
   "priceRange": "$$",
   "address": {

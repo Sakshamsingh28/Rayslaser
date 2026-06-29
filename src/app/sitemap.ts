@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://rayslaser.in"; // Default brand domain
+  const baseUrl = "https://www.rayslaser.in"; // Default brand domain
   
   return [
     {

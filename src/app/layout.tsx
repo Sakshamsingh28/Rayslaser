@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Rays Laser Aesthetic Clinic and Salon | Best Skin & Hair Clinic in Mankhurd, Mumbai",
   description: "Premium laser hair removal, HydraFacials, PRP hair therapy, and bridal makeup services in Mankhurd, Govandi, and Chembur. Book your slot now.",
-  metadataBase: new URL("https://rayslaser.in"),
+  metadataBase: new URL("https://www.rayslaser.in"),
   alternates: {
     canonical: "/",
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Rays Laser Aesthetic Clinic and Salon | Mankhurd, Mumbai",
     description: "Premium laser hair removal, HydraFacials, PRP hair therapy, and bridal makeup services.",
-    url: "https://rayslaser.in",
+    url: "https://www.rayslaser.in",
     siteName: "Rays Clinic",
     locale: "en_US",
     type: "website",
@@ -43,7 +43,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Rays Laser Aesthetic Clinic and Salon",
-  "image": "https://rayslaser.in/hero-model.png",
+  "image": "https://www.rayslaser.in/hero-model.png",
   "priceRange": "$$",
   "telephone": "+91 99206 81317",
   "address": {
@@ -59,7 +59,7 @@ const jsonLd = {
     "latitude": 19.0305,
     "longitude": 72.9348
   },
-  "url": "https://rayslaser.in",
+  "url": "https://www.rayslaser.in",
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [

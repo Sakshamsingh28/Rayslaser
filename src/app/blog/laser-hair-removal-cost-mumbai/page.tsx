@@ -31,7 +31,7 @@ const articleSchema = {
     "name": "Rays Laser Aesthetic Clinic and Salon",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://rayslaser.in/hero-model.png"
+      "url": "https://www.rayslaser.in/hero-model.png"
     }
   }
 };
