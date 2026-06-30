@@ -64,7 +64,7 @@ export default function HeroSection() {
       >
         {/* The user's requested Cutout Image */}
         <img 
-          src="removed-image-placeholder" 
+          src="/hero-model.png" 
           alt="Premium Aesthetic Model" 
           className="object-cover md:object-contain object-bottom w-full h-full [mask-image:linear-gradient(to_bottom,black_80%,transparent)]"
         />
@@ -80,7 +80,7 @@ export default function HeroSection() {
       >
         <motion.p 
           variants={itemVars}
-          className="text-sm md:text-base uppercase tracking-[0.5em] text-white/50 mb-4"
+          className="hidden md:block text-sm md:text-base uppercase tracking-[0.5em] text-white/50 mb-4"
         >
           Mumbai&apos;s Premier Destination
         </motion.p>
