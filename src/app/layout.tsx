@@ -43,7 +43,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Rays Laser Aesthetic Clinic and Salon",
-  "image": "https://www.rayslaser.in/hero-model.png",
+  "image": "https://www.rayslaser.in/hero-model.webp",
   "priceRange": "$$",
   "telephone": "+91 99206 81317",
   "address": {

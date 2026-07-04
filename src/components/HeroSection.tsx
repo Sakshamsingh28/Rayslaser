@@ -64,7 +64,7 @@ export default function HeroSection() {
       >
         {/* The user's requested Cutout Image */}
         <img 
-          src="/hero-model.png" 
+          src="/hero-model.webp" 
           alt="Premium Aesthetic Model" 
           className="object-cover md:object-contain object-bottom w-full h-full [mask-image:linear-gradient(to_bottom,black_80%,transparent)]"
         />
