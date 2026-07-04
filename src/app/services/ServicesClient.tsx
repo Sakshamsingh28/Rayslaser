@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Search, MessageCircle, Sparkles, Info, ArrowRight, Scissors, Stethoscope } from "lucide-react";
+import { Search, MessageCircle, Sparkles, ArrowRight, Scissors, Stethoscope } from "lucide-react";
 import { servicesData, ServiceCategory, ServiceSubcategory, ServiceItem } from "./servicesData";
 
 export default function ServicesClient() {
@@ -111,22 +111,7 @@ export default function ServicesClient() {
         </div>
       </div>
 
-      {/* Notice Alert Surcharge */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        className="max-w-4xl mx-auto mb-16 bg-[#171717]/40 border border-primary/20 rounded-2xl p-6 flex gap-4 items-start shadow-xl backdrop-blur-md"
-      >
-        <Info className="w-6 h-6 text-primary shrink-0 mt-0.5" />
-        <div>
-          <h4 className="text-sm font-serif text-white font-semibold uppercase tracking-wider mb-1">
-            Important Note on Custom Rates
-          </h4>
-          <p className="text-white/70 text-xs font-light leading-relaxed">
-            Standard service listings are displayed below. If a service is explicitly requested to be performed by the Owner (Nilu) rather than our expert clinical staff, a 20% surcharge will apply over the standard rate.
-          </p>
-        </div>
-      </motion.div>
+      {/* Notice Alert Surcharge removed */}
 
       {/* Main Grid View */}
       <div className="max-w-6xl mx-auto">
